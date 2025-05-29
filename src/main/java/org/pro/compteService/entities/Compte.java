@@ -22,7 +22,7 @@ public class Compte {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long code;
-    private double solde;
+    private double saldo;
     private Date dateCreation;
     @Enumerated(EnumType.STRING)
     private TypeCompte type;

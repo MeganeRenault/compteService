@@ -26,7 +26,7 @@ public class CompteServiceApplication {
 
 			compteRepository.findAll().forEach(cp -> {
 				System.out.println(cp.getType());
-				System.out.println(cp.getSolde());
+				System.out.println(cp.getSaldo());
 			});
 		};
 	}
